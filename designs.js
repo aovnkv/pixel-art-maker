@@ -8,22 +8,26 @@ function makeGrid(height, width) {
 	r = "<tr></tr>";
 	c = "<td></td>";
 
-	for ( var h = 1; h<= height; h++ ) {
-		rows = "";
+	for ( var h = 1; h <= height; h++ ) {
+		var rows = "";
 		rows += r;
-		console.log(rows);
+
+		for ( var w = 1; w <= width; w++ ) {
+			var cols = "";
+			cols += c;
+			console.log();
+		};
+		var grid = "";
+		grid += $(cols).appendTo(rows);
+		console.log(grid);
 	};
 
-	for ( var w = 1; w <= width; w++ ) {
-		cols = "";
-		cols += c;
-		console.log(cols);
-	};
 
-	return $(rows).appendTo("table");
-	$(cols).appendTo("tr");
+
+	$(grid).appendTo("table");
+	//$(cols).appendTo("tr");
 }
 
-makeGrid(2, 3);
+makeGrid(3, 3);
 
 
