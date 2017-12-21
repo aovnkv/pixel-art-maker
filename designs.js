@@ -5,7 +5,7 @@
 
 function makeGrid(height, width) {
 
-	r = "<tr></tr>";
+	r = "<tr>";
 	c = "<td></td>";
 
 	for ( var h = 1; h <= height; h++ ) {
@@ -14,16 +14,16 @@ function makeGrid(height, width) {
 
 		for ( var w = 1; w <= width; w++ ) {
 			var cols = "";
-			cols += c;
+			cols += c + "</tr>";
 			console.log();
 		};
 		var grid = "";
-		grid += $(cols).appendTo(rows);
-		console.log(grid);
+		grid += rows + cols;
+
 	};
 
 
-
+	console.log(grid);
 	$(grid).appendTo("table");
 	//$(cols).appendTo("tr");
 }
