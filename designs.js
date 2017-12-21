@@ -14,11 +14,11 @@ function makeGrid(height, width) {
 
 		for ( var w = 1; w <= width; w++ ) {
 			var cols = "";
-			cols += c + "</tr>";
+			cols += c;
 			console.log();
 		};
 		var grid = "";
-		grid += rows + cols;
+		grid += rows + cols + "</tr>";
 
 	};
 
