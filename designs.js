@@ -5,16 +5,14 @@
 
 function makeGrid(height, width) {
 
-	r = "<tr>";
-	c = "<td></td>";
 
 	for ( var h = 1; h <= height; h++ ) {
 		var rows = "";
-		rows += r;
+		rows += "<tr>";
 
 		for ( var w = 1; w <= width; w++ ) {
 			var cols = "";
-			cols += c;
+			cols += "<td></td>";
 			console.log();
 		};
 		var grid = "";
