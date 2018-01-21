@@ -60,7 +60,7 @@ $("#pixel_canvas").on("click", "td", function(evt){
 	$(evt.target).css("background-color", color);
 })
 
-// set the event handler for reset the grid button
+// set the event handler for to clear the grid button
 
 $("button").on("click", function(e){
 	e.preventDefault;
