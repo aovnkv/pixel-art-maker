@@ -2,6 +2,6 @@
 just another repo
 
 
-: hello to everybody \0/
+:| hello to everybody \o/
 
-I'm a russian frontend developer, listen to balalaika, drink vodka every day with my fellow bear, and keep my flow raw and dirty.
+i'm a russian frontend developer, listen to balalaika, drink vodka every day with my fellow bear, and keep my flow raw and dirty.
